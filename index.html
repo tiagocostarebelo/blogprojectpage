@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="files/style.css">
+    <title>The Blog"Itch" Project</title>
+</head>
+<body>
+    <!-- Main Site Container -->
+    <div class="site-container">
+
+        <!-- Top / Navigation Bar-->
+        <header class="nav-bar">
+            <!-- who knows, maybe it goes beyond just a project, later on create a proper logo? -->
+            <div id="logo">
+                <a href="index.html">The Blog"Itch" Project</a>
+            </div>
+            <!-- maybe create a hamburger (nhammi) ? -->
+                <ul>
+                    <li><a href="index.html" class="nav-btn">Home</a></li>
+                    <li><a href="blog.html" class="nav-btn">Blog</a></li>
+                    <li><a href="index.html" class="nav-btn">Contact</a></li>
+                </ul>
+            
+        </header>
+
+        <!-- Main Container New Blog Post -->
+        <div class="main-container">
+            <!-- New Article -->
+            <article class="new-article">
+                <!-- image background will be embeded in the CSS as a background img -->
+                <h1>Fresh Post</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dicta blanditiis beatae dolor doloribus eum.</p>
+                <a href="blog.html#fresh-post" class="btn">Read More</a>
+            </article>
+
+            <!-- About Me - use my linkedin pic will do it -->
+            <div class="about-me" id="about-me">
+                <img src="images/tiago.png" alt="me">
+                <h2>Who Am i</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veritatis fugiat, tenetur est voluptates dolorum dicta amet distinctio commodi quo. Totam fugit sint, ipsa perspiciatis magni dicta reprehenderit iusto a!</p>
+            </div>
+        </div>
+
+        <!-- Subscribe -->
+        <div class="subscribe-form">
+            <form action="action_page.php">
+                <div class="info-container">
+                    <h2>Subscribe to our Newsletter</h2>
+                    <p>Fill in your name and email and never miss a new article again</p>
+                
+
+                    <div class="form-container">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="text" placeholder="Email address" name="mail" required>                    
+                    </div>
+
+                    <div class="sub-container">
+                        <input type="submit" value="Subscribe" class="submit-btn">
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <!-- Older blog posts -->
+        <section class="more-posts">
+            <div class="posts">
+                <h3>Tech Today</h3>
+                <figure>
+                    <img src="images/image1.jpg" alt="tech1">
+                    <figcaption>Photo from <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quia.</p>
+                <a href="blog.html" class="btn">Read More</a>
+            </div>
+            <div class="posts">
+                <h3>You and Tech</h3>
+                <figure>
+                    <img src="images/image2.jpg" alt="tech2">
+                    <figcaption>Photo from <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quia.</p>
+                <a href="blog.html" class="btn">Read More</a>
+            </div>
+            <div class="posts">
+                <h3>Typography made easy</h3>
+                <figure>
+                    <img src="images/image3.jpg" alt="typography">
+                    <figcaption>Photo from <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quia.</p>
+                <a href="blog.html" class="btn">Read More</a>
+            </div>
+            <div class="posts">
+                <h3>Tech Tomorrow</h3>
+                <figure>
+                    <img src="images/image4.jpg" alt="tech3">
+                    <figcaption>Photo from <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quia.</p>
+                <a href="blog.html" class="btn">Read More</a>
+            </div>
+            <div class="posts">
+                <h3>Matrix or Tech?</h3>
+                <figure>
+                    <img src="images/image5.jpg" alt="tech4">
+                    <figcaption>Photo from <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quia.</p>
+                <a href="blog.html" class="btn">Read More</a>
+            </div>
+            <div class="posts">
+                <h3>Patterns</h3>
+                <figure>
+                    <img src="images/image6.jpg" alt="pattern">
+                    <figcaption>Photo from <a href="http://www.unsplash.com" target="_blank">unsplash.com</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, quia.</p>
+                <a href="blog.html" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!-- Footer // insert Social Networks later on maybe? -->
+        <footer class="footer">
+            <p>&copy 2020 by Tiago Costa Rebelo</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Subscribe section */
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-image: url("/images/subscribe2.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: var(--shadow);
+    padding: 3rem;
+}
+
+.info-container h2 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--light);
+}
+
+.info-container p {
+    font-size: 1.3rem;
+    margin: 0;
+    color: var(--light);
+}
+
+.submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(207, 7, 7);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 1.2rem;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+}

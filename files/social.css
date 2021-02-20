@@ -1,0 +1,30 @@
+.social {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.icons {
+    display: flex;
+    grid-area: social;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fa {
+    padding: 1rem;
+    text-decoration: none;    
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    margin: 0.2rem;
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: var(--light);
+    color: var(--dark);
+}

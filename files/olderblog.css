@@ -1,0 +1,22 @@
+/* Older Posts Section */
+.more-posts {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'posts posts posts'
+    'posts posts posts';
+    min-width: 500px;
+}
+
+figure a {
+    text-decoration: none;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+}
